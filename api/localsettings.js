@@ -10,7 +10,7 @@ exports.setup = function( parsoidConfig ) {
 	// The URL of your MediaWiki API endpoint. Optionally, you can also pass
 	// in a proxy specific to this prefix (overrides defaultAPIProxyURI), or
 	// null to disable proxying for this end point.
-	parsoidConfig.setInterwiki( 'localhost', 'midaat:kerendic12@http://wiki.midaat.org.il/api.php' );
+	parsoidConfig.setInterwiki( 'localhost', 'http://midaat:kerendic12@wiki.midaat.org.il/api.php' );
 
 	// We pre-define wikipedias as 'enwiki', 'dewiki' etc. Similarly
 	// for other projects: 'enwiktionary', 'enwikiquote', 'enwikibooks',
